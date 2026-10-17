@@ -1,0 +1,17 @@
+Add-Computer
+    [-DomainName] <String>
+    -Credential <PSCredential>
+    [-ComputerName <String[]>]
+    [-LocalCredential <PSCredential>]
+    [-UnjoinDomainCredential <PSCredential>]
+    [-OUPath <String>]
+    [-Server <String>]
+    [-Unsecure]
+    [-Options <JoinOptions>]
+    [-Restart]
+    [-PassThru]
+    [-NewName <String>]
+    [-Force]
+    [-WhatIf]
+    [-Confirm]
+    [<CommonParameters>]
